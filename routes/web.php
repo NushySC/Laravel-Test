@@ -19,3 +19,5 @@ Route::get('/movies-list', 'MovieController@movies');
 Route::get('/movies/detail/venom', 'MovieController@detail');
 
 Route::get('/continents/europe', 'ContinentController@Europe');
+Route::get('/countries/largest', 'CountryController@largest');
+Route::get('/countries/czechia', 'CountryController@detail');
